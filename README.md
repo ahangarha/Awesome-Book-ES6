@@ -17,7 +17,7 @@ Check the [live demo](https://ahangarha.github.io/Awesome-Books-ES6/) deployed o
 
 This is a simple static HTML project. Copy the content in your desireable location and open `index.html` file in the browser.
 
-## Authors
+## Author
 
 👤 **Mostafa Ahangarha**
 
