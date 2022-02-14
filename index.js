@@ -1,10 +1,10 @@
-import { DateTime } from './node_modules/luxon/src/luxon.js';
 import BookCollection from './modules/bookCollection.js';
 import addNavigation from './modules/addNavigation.js';
 
 const datePlaceholder = document.getElementById('current-date');
 
-datePlaceholder.innerHTML = DateTime.local().toLocaleString(DateTime.DATETIME_FULL);
+// eslint-disable-next-line no-undef
+datePlaceholder.innerHTML = luxon.DateTime.local().toLocaleString(luxon.DateTime.DATETIME_FULL);
 
 const bookListWrapper = document.getElementById('bookList');
 const addBookForm = document.getElementById('addBookForm');
